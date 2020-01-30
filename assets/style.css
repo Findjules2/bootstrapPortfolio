@@ -175,6 +175,43 @@ nav {
               }
 }
 
+/*
+  The width of the wrapper will be 980px
+  at browser widths above 768px
+*/
+
+@media screen and (max-width: 980px) {
+  .wrapper2  {
+        width: 100%;
+          }
+
+   
+    port1 {
+      /* Positioning */
+      float: left;
+      }
+
+    port2 {
+      /* Positioning */
+      float: left;
+      }
+
+    port3 {
+      /* Positioning */
+      float: left;
+      }
+
+    port4 {
+    /* Positioning */
+    float: left;
+    }
+  
+    port5 {
+    /* Positioning */
+    float: left;
+    } 
+    
+  }
   
  
   /*
@@ -187,3 +224,14 @@ nav {
           width: 640px;
      }
   }
+
+  /*
+    These rules take effect when the browser's width
+    is either 640px or less.
+  */
+  @media screen and (max-width: 640px) {
+    /* The wrapper's width will be on two lines */
+    .wrapper2 {
+          width: 640px;
+     }
+  } 
