@@ -34,100 +34,30 @@ body {
     height: auto;
   }
 
-  /* Container holding the image and the text */
-.port1 {
+.port {
   position: relative;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.portImg{
+  width: 100%;
 }
 
 /* Bottom right text */
-.wordGuess {
+.portTitle {
   position: absolute;
   bottom: 20px;
-  right: 20px;
+  width: 100%;
+  text-align: center;
   background-color: blue;
   color: white;
   padding-left: 20px;
   padding-right: 20px;
 }
 
-  .port2 {
-    margin-bottom: 20px;
-  }
 
-  /* Container holding the image and the text */
-.port2 {
-  position: relative;
-}
 
-/* Bottom right text */
-.rpgGame {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  background-color: blue;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-  .port3 {
-    margin-bottom: 20px;
-  }
-
-  /* Container holding the image and the text */
-.port3 {
-  position: relative;
-}
-
-/* Bottom right text */
-.triviaGame {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  background-color: blue;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-  .port4 {
-    margin-bottom: 20px;
-  }
-
-  /* Container holding the image and the text */
-.port4 {
-  position: relative;
-}
-
-/* Bottom right text */
-.infoWidget {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  background-color: blue;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-  .port5 {
-    margin-bottom: 20px;
-  }
-
-  /* Container holding the image and the text */
-.port5 {
-  position: relative;
-}
-
-/* Bottom right text */
-.rockPaperScissors {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  background-color: blue;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-}
 
   footer {
     background-color: gray;
@@ -142,14 +72,14 @@ nav {
     margin-bottom: 20px;
   }
 
-  
-/*
-  The width of the wrapper will be 980px
-  at browser widths above 768px
-*/
+@media screen and (min-width: 768px) {
 
-@media screen and (max-width: 980px) {
-    .wrapper h1 {
+}
+
+@media screen and (min-width: 980px) {
+  
+  
+  /*  .wrapper h1 {
           width: 33%;
             }
 
@@ -160,26 +90,24 @@ nav {
         }
       
       h1 {
-        /* Positioning */
-        float: left;
+                float: left;
         }
       
       nav {
-        /* Positioning */
-        float: right;
+         float: right;
         padding: 23px 0;
       margin: 0;
       margin-bottom: 0;
       font-size: 28px;
       text-align: center;
-              }
-}
+              }*/
+} 
 
 /*
   The width of the wrapper will be 980px
   at browser widths above 768px
 */
-
+/*
 @media screen and (max-width: 980px) {
   .wrapper2  {
         width: 100%;
@@ -187,51 +115,51 @@ nav {
 
    
     port1 {
-      /* Positioning */
+      
       float: left;
       }
 
     port2 {
-      /* Positioning */
+      
       float: left;
       }
 
     port3 {
-      /* Positioning */
+      
       float: left;
       }
 
     port4 {
-    /* Positioning */
+    
     float: left;
     }
   
     port5 {
-    /* Positioning */
+   
     float: left;
     } 
     
   }
-  
+   */
  
   /*
     These rules take effect when the browser's width
     is either 640px or less.
   */
-  @media screen and (max-width: 640px) {
-    /* The wrapper's width will be on two lines */
+  /* @media screen and (max-width: 640px) {
+    
     .wrapper h1, .wrapper nav{
           width: 640px;
      }
-  }
+  } */
 
   /*
     These rules take effect when the browser's width
     is either 640px or less.
-  */
-  @media screen and (max-width: 640px) {
-    /* The wrapper's width will be on two lines */
+  /* */
+  /* @media screen and (max-width: 640px) {
+  
     .wrapper2 {
           width: 640px;
      }
-  } 
+  }  */ 
