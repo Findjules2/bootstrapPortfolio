@@ -7,7 +7,7 @@ Worked with wrappers, div.class, and containers
 Used bootstrap links
 
 * The URL of the deployed application:
-https://findjules2.github.io/bootstrapPortfolio
+https://findjules2.github.io/bootstrapPortfolio/
 
 * The URL of the GitHub repository:
 https://github.com/Findjules2/bootstrapPortfolio
